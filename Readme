@@ -13,3 +13,8 @@ To run this app, you need to have Flask installed. You can install it via pip:
 ## Run the App
 
 ### python app.py
+
+Access the app in your web browser at http://127.0.0.1:5000. Fill out the form with the total bill amount,
+tip percentage, and the number of people splitting the bill.
+
+Click the "Calculate" button to see the amount each person should pay.
