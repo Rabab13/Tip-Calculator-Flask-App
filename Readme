@@ -1,0 +1,15 @@
+# Flask Tip Calculator App
+
+This Flask app calculates the amount each person should pay after splitting a bill, including a tip, among a specified number of people.
+
+## Installation
+
+To run this app, you need to have Flask installed. You can install it via pip:
+
+
+### pip install Flask
+
+
+## Run the App
+
+### python app.py

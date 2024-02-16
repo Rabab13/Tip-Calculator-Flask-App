@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <h1>Welcome to the tip calculator!</h1>
+    <form action="/calculate" method="post">
+        <label for="welcome">What was the total bill?</label>
+        <input type="number" name="welcome" required><br>
+        <label for="percent">What percentage tip would you like to give? (10, 12, or 20)</label>
+        <input type="number" name="percent" required><br>
+        <label for="people">How many people to split the bill?</label>
+        <input type="number" name="people" required><br>
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
